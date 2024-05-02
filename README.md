@@ -1,6 +1,6 @@
 # Discord Message Forwarding Selfbot
 
-This selfbot forwards messages from one server to another in Discord.
+This selfbot simplifies the process of forwarding messages from one Discord server to another.
 
 ## Table of Contents
 
@@ -9,10 +9,11 @@ This selfbot forwards messages from one server to another in Discord.
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
+- [Contact](#contact)
 
 ## Introduction
 
-This Discord selfbot is designed to capture messages from a specific server and channel and forward them to another server and channel.
+This Discord selfbot efficiently captures messages from a designated server and channel, forwarding them to another specified server and channel.
 
 ## Installation
 
@@ -28,28 +29,30 @@ To install and set up the Discord Message Forwarding Selfbot, follow these steps
    cd serverhoster
    ```
 
-3. Install required packages:
+3. Install the required packages:
    ```bash
    npm install discord.js-selfbot-v13 dotenv express
    ```
 
-4. Replace `token` with your Discord bot token in the code.
+4. Replace the placeholder `token` with your Discord bot token in the code.
 
 ## Usage
 
-Before using the selfbot, make sure you have created a bot user on Discord and obtained its token.
+Before using the selfbot, ensure you've created a bot user on Discord and obtained its token.
 
-1. Run the selfbot:
+1. Execute the selfbot:
    ```bash
    node node.js
    ```
 
 ## Contributing
 
-Contributions are welcome! Please fork this repository and create a pull request with your suggested changes.
+Contributions are highly encouraged! Please fork this repository and create a pull request with your proposed changes.
 
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-```
 
+## Contact
+
+For any inquiries or assistance, feel free to reach out on Discord: **darkk.py** 🚀
