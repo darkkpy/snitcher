@@ -28,11 +28,9 @@ client.on('messageCreate', async (message) => {
 
     let messageContent = `🔔 **New Captured Message:**\n📬 **New Captured Message from ${message.author.username}**\n📨 **Message Content:**\n${content}${replyContent}`;
 
-    // Add the message link
     const messageLink = `🔗 **Message Link:** ${message.url}`;
     messageContent += `\n${messageLink}\n=======`;
 
-    // Send the message to destinationChannel
     const destinationChannel = await client.channels.fetch(destinationChannelId);
     destinationChannel.send(messageContent);
   }
