@@ -21,12 +21,12 @@ To install and set up the Discord Message Forwarding Selfbot, follow these steps
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/DarkPython69/serverhoster.git
+   git clone https://github.com/DarkPython69/snitcher.git
    ```
 
 2. Navigate to the directory:
    ```bash
-   cd serverhoster
+   cd snitcher
    ```
 
 3. Install the required packages:
@@ -42,7 +42,7 @@ Before using the selfbot, ensure you've created a bot user on Discord and obtain
 
 1. Execute the selfbot:
    ```bash
-   node node.js
+   node snitcher.js
    ```
 
 ## Contributing
